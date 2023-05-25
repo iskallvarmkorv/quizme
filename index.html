@@ -19,7 +19,7 @@
    
     <div id="bintro"></div>
     <div id="intro">
-        <h1 id="rubrik">Vill du veta vilken häxa du är?</h1>
+        <h2 id="rubrik">Vill du veta vilken häxa du är?</h2>
         <div id="lol">
             <p id="lol1">Trix-häxorna utgör en markant roll i Winx club serien. Dem är betydelsefulla genom hela serien men vem är du mest lik? Svara på formuläret genom att välja alternativet som passar bäst in på dig, se sedan svarsformuläret längst ner.</p>
             <p id="lol2">Vi är en ideell organisation av nördar och mähä som endast vill underhålla publiken. Sidan är skapad för er som växte upp med att kolla på Winx clun eller helt enkelt vill veta vem utav häxorna ni skulla varit.</p>
@@ -131,16 +131,16 @@
         </div>
         <img id="bild5" src="" alt="" >
         <div id="svar51">
-            <input type="radio" id="svar51r" name="fråga5r" value="Darcy"/>
-            Patetisk<br>
+            <input type="radio" id="svar51r" name="fråga5r" value="Darcy">
+            <label for="svar51r">Patetisk</label><br>
         </div>
         <div id="svar52">
-            <input type="radio" id="svar52r" name="fråga5r" value="Icy"/>
-            Fult äckligt kräk<br>
+            <input type="radio" id="svar52r" name="fråga5r" value="Icy">
+            <label for="svar52r">Fult äckligt kräk</label><br>
         </div>
         <div id="svar53">
-            <input type="radio" id="svar53r" name="fråga5r" value="Stormy"/>
-            *skriker<br>
+            <input type="radio" id="svar53r" name="fråga5r" value="Stormy">
+            <label for="svar53r">*skriker</label><br>
         </div>
     
     </div>
@@ -225,18 +225,6 @@
         .on("change", function (event) {
             resulta.innerHTML = "Fråga fem:" + event.target.value;
         });
-
-
-      
-        $("#trix").click(function () {
-
-            $('html, body').animate({ scrollTop: $("#bintro").offset().top - 100 }, 1300);
-
-        });
-
-        $("#svar11").hover(function () {
-                $("#svar11").slideToggle("slow");
-            });
 
 
 

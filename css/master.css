@@ -147,12 +147,6 @@ table {
 }
 
 
-
-
-
-
-
-
 body {
  height: 750vh; 
  display: flex;
@@ -170,9 +164,6 @@ nav {
     margin-top: 0%;
     display: flex;
     justify-content: center;
-}
-#trix{
-
 }
 
 
@@ -206,6 +197,7 @@ header{
 }
 #rubrik {
     margin-left: 5%;
+    font-size: xx-large;
 }
 #lol{
     height: 80%;
@@ -376,10 +368,6 @@ header{
 }
 
 
-
-
-
-
 #fråga4 {
     grid-area: ffo;
     background-color: blueviolet;
@@ -423,13 +411,6 @@ header{
     background-color: transparent;
 }
 
-
-
-
-
-
-
-
 #fråga5 {
     grid-area: ffe;
     background-color: blueviolet;
@@ -467,18 +448,6 @@ header{
     display: flex;
     align-items: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 main{
     height: 70%;
@@ -562,12 +531,6 @@ footer {
 #result5 {
     font-size: x-large;
 }
-
-
-
-
-
-
 
 
 #wrapperMain {
@@ -662,9 +625,5 @@ footer {
     #svarbild{
         width: 100%;
     }
-
-
-   
-
 
 }
