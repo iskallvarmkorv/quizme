@@ -577,6 +577,12 @@ footer {
 
 @media screen and (max-width:1050px){
     
+    nav{
+        height: 14vh;
+    }
+    header{
+        margin-top: 5vh;
+    }
     #bintro{
         margin-top: 10%;
         width: 100%;
@@ -602,6 +608,9 @@ footer {
     #lol2 {
         height: 50%;
         width: 90%;
+    }
+    .fråga{
+        font-size: x-large;
     }
 
     footer{
